@@ -15,4 +15,9 @@ public class SmsRestController {
 	  public String returnApplicationnm() {
 		  return "application name";
 	  }
+	   
+	   @RequestMapping("/getappnamewithport")
+		  public String returnApplicationnmwport() {
+			  return "application name  8080";
+		  }
 }
